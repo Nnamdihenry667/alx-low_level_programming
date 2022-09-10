@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char c = 'a';
+	char c;
 	char f = '0';
 
 	while (f <= 9)
@@ -18,7 +18,7 @@ int main(void)
 		f++;
 	}
 
-	for (c; c <= 'f'; c++)
+	for (c = 'a'; c <= 'f'; c++)
 	{
 		putchar(c);
 	}
