@@ -12,11 +12,11 @@ int main(void)
 {
 	int i = 0;
 
-	for (i; i < 10; i++)
+	if (i < 10)
 	{
 
 		printf("%i", i);
-
+		i++;
 	}
 	return (0);
 }
