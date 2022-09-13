@@ -2,8 +2,9 @@
 #include <unistd.h>
 
 /**
- * different header prototypes
+ * _putchar - to print a character
  *
  */
 
 int  _putchar(char);
+void print_alphabet(void);
