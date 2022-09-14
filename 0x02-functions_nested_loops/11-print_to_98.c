@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * print_to_98 - prints numbers till 98
@@ -12,9 +13,7 @@ void print_to_98(int n)
 	{
 		for (n = n; n <= 98; n++)
 		{
-			_putchar('n');
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", n);
 		}
 
 	}
@@ -22,9 +21,7 @@ void print_to_98(int n)
 	{
 		for (n = n; n >= 98; n++)
 		{
-			_putchar('n');
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", n);
 		}
 
 	}
