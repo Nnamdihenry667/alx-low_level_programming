@@ -3,7 +3,7 @@
 /**
  * cap_string -capitaizes all words in a string
  * @n: input
- * Return: a string
+ * Return: string
  */
 
 char *cap_string(char *n)
@@ -16,7 +16,7 @@ char *cap_string(char *n)
 	{
 		n[0] = n[0] - 32;
 	}
-	for (i = 0; i != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
 		switch (n[i])
 		{
