@@ -3,7 +3,7 @@
 /**
  * prime - checks for prime number
  * @n: integer
- * counter: takes count
+ * @counter: takes count
  * Return: 1 if prime
  */
 
