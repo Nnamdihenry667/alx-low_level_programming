@@ -1,0 +1,1 @@
+learning struct and typedef
