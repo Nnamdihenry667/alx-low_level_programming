@@ -1,7 +1,6 @@
-!<arch>
-main.h/         0           0     0     644     708       `
 #ifndef MAIN_H
 #define MAIN_H
+
 
 int _putchar(char c);
 
